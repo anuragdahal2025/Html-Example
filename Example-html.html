@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML Example by Anurag Dahal">
+    <meta name="keywords" content="HTML, web development, learning">
+    <meta name="author" content="Anurag Dahal">
+    <title>HTML Examples - Anurag Dahal</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>HTML Examples by Anurag Dahal</h1>
+        <nav>
+            <ul>
+                <li><a href="#text">Text Elements</a></li>
+                <li><a href="#lists">Lists</a></li>
+                <li><a href="#links">Links</a></li>
+                <li><a href="#images">Images</a></li>
+                <li><a href="#tables">Tables</a></li>
+                <li><a href="#forms">Forms</a></li>
+                <li><a href="#semantic">Semantic Elements</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Text Elements Section -->
+        <section id="text">
+            <h2>1. Text Elements</h2>
+            
+            <h1>Heading 1 - Main Title</h1>
+            <h2>Heading 2 - Section Title</h2>
+            <h3>Heading 3 - Subsection</h3>
+            <h4>Heading 4 - Minor Section</h4>
+            <h5>Heading 5 - Small Section</h5>
+            <h6>Heading 6 - Smallest Section</h6>
+            
+            <p>This is a regular paragraph. It contains normal text that flows naturally.</p>
+            
+            <p><strong>This text is bold/strong.</strong></p>
+            <p><em>This text is italic/emphasized.</em></p>
+            <p><mark>This text is highlighted/marked.</mark></p>
+            <p><del>This text is deleted/strikethrough.</del></p>
+            <p><ins>This text is inserted/underlined.</ins></p>
+            <p><sub>This is subscript text.</sub> Normal text <sup>This is superscript text.</sup></p>
+            
+            <blockquote>
+                <p>"This is a blockquote. It's used for quoting text from another source."</p>
+                <cite>- Anurag Dahal</cite>
+            </blockquote>
+            
+            <pre>
+This is preformatted text.
+It preserves    spaces    and
+line breaks exactly as written.
+            </pre>
+            
+            <code>This is inline code: &lt;div&gt;Hello World&lt;/div&gt;</code>
+        </section>
+
+        <!-- Lists Section -->
+        <section id="lists">
+            <h2>2. Lists</h2>
+            
+            <h3>Unordered List (Bullet Points)</h3>
+            <ul>
+                <li>First item</li>
+                <li>Second item</li>
+                <li>Third item
+                    <ul>
+                        <li>Nested item 1</li>
+                        <li>Nested item 2</li>
+                    </ul>
+                </li>
+            </ul>
+            
+            <h3>Ordered List (Numbered)</h3>
+            <ol>
+                <li>First step</li>
+                <li>Second step</li>
+                <li>Third step
+                    <ol type="a">
+                        <li>Substep a</li>
+                        <li>Substep b</li>
+                    </ol>
+                </li>
+            </ol>
+            
+            <h3>Definition List</h3>
+            <dl>
+                <dt>HTML</dt>
+                <dd>HyperText Markup Language - the standard markup language for web pages</dd>
+                
+                <dt>CSS</dt>
+                <dd>Cascading Style Sheets - used for styling web pages</dd>
+                
+                <dt>JavaScript</dt>
+                <dd>A programming language that adds interactivity to web pages</dd>
+            </dl>
+        </section>
+
+        <!-- Links Section -->
+        <section id="links">
+            <h2>3. Links</h2>
+            
+            <h3>External Links</h3>
+            <p><a href="https://www.google.com" target="_blank">Google (opens in new tab)</a></p>
+            <p><a href="https://www.github.com">GitHub (opens in same tab)</a></p>
+            
+            <h3>Internal Links (Page Navigation)</h3>
+            <p><a href="#text">Go to Text Elements</a></p>
+            <p><a href="#forms">Go to Forms Section</a></p>
+            
+            <h3>Email and Phone Links</h3>
+            <p><a href="mailto:anurag.dahal@gmail.com">Send email to Anurag</a></p>
+            <p><a href="tel:+9779856004550">Call Anurag: +977 9841234567</a></p>
+            
+            <h3>Download Links</h3>
+            <p><a href="document.pdf" download>Download PDF Document</a></p>
+        </section>
+
+        <!-- Images Section -->
+        <section id="images">
+            <h2>4. Images</h2>
+            
+            <h3>Basic Image</h3>
+            <img src="https://via.placeholder.com/300x200/007bff/ffffff?text=Sample+Image" 
+                 alt="Sample placeholder image" 
+                 width="300" 
+                 height="200">
+            
+            <h3>Image with Figure and Caption</h3>
+            <figure>
+                <img src="https://via.placeholder.com/400x300/28a745/ffffff?text=Figure+Image" 
+                     alt="Figure image example" 
+                     width="400" 
+                     height="300">
+                <figcaption>This is a figure caption describing the image above</figcaption>
+            </figure>
+            
+            <h3>Responsive Image</h3>
+            <img src="https://via.placeholder.com/500x300/dc3545/ffffff?text=Responsive+Image" 
+                 alt="Responsive image example" 
+                 style="max-width: 100%; height: auto;">
+        </section>
+
+        <!-- Tables Section -->
+        <section id="tables">
+            <h2>5. Tables</h2>
+            
+            <h3>Basic Table</h3>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>City</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Anurag Dahal</td>
+                        <td>20</td>
+                        <td>Pokhara</td>
+                    </tr>
+                    <tr>
+                        <td>Sagar Thapa</td>
+                        <td>25</td>
+                        <td>New York</td>
+                    </tr>
+                    <tr>
+                        <td>James Gurung</td>
+                        <td>22</td>
+                        <td>London</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <h3>Complex Table with Colspan and Rowspan</h3>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th rowspan="2">Subject</th>
+                        <th colspan="2">Grades</th>
+                    </tr>
+                    <tr>
+                        <th>Mid-term</th>
+                        <th>Final</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>85</td>
+                        <td>90</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>88</td>
+                        <td>92</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>82</td>
+                        <td>87</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Forms Section -->
+        <section id="forms">
+            <h2>6. Forms</h2>
+            
+            <h3>Contact Form</h3>
+            <form action="/submit" method="POST">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                    <br><br>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                    <br><br>
+                    
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="Enter 10-digit phone number">
+                    <br><br>
+                    
+                    <label for="birthdate">Date of Birth:</label>
+                    <input type="date" id="birthdate" name="birthdate">
+                    <br><br>
+                    
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" min="1" max="120" placeholder="Enter your age">
+                    <br><br>
+                    
+                    <label for="website">Website:</label>
+                    <input type="url" id="website" name="website" placeholder="https://example.com">
+                    <br><br>
+                    
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required minlength="8">
+                    <br><br>
+                    
+                    <label for="gender">Gender:</label>
+                    <select id="gender" name="gender">
+                        <option value="">Select gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <br><br>
+                    
+                    <label>Interests:</label><br>
+                    <input type="checkbox" id="html" name="interests" value="html">
+                    <label for="html">HTML</label><br>
+                    
+                    <input type="checkbox" id="css" name="interests" value="css">
+                    <label for="css">CSS</label><br>
+                    
+                    <input type="checkbox" id="javascript" name="interests" value="javascript">
+                    <label for="javascript">JavaScript</label><br>
+                    
+                    <input type="checkbox" id="bootstrap" name="interests" value="bootstrap">
+                    <label for="bootstrap">Bootstrap</label>
+                    <br><br>
+                    
+                    <label>Experience Level:</label><br>
+                    <input type="radio" id="beginner" name="experience" value="beginner">
+                    <label for="beginner">Beginner</label><br>
+                    
+                    <input type="radio" id="intermediate" name="experience" value="intermediate">
+                    <label for="intermediate">Intermediate</label><br>
+                    
+                    <input type="radio" id="advanced" name="experience" value="advanced">
+                    <label for="advanced">Advanced</label>
+                    <br><br>
+                    
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter your message here..."></textarea>
+                    <br><br>
+                    
+                    <label for="file">Upload File:</label>
+                    <input type="file" id="file" name="file" accept=".pdf,.doc,.docx">
+                    <br><br>
+                    
+                    <label for="color">Favorite Color:</label>
+                    <input type="color" id="color" name="color">
+                    <br><br>
+                    
+                    <label for="range">Skill Level (1-10):</label>
+                    <input type="range" id="range" name="range" min="1" max="10" value="5">
+                    <span id="rangeValue">5</span>
+                    <br><br>
+                    
+                    <button type="submit">Submit Form</button>
+                    <button type="reset">Reset Form</button>
+                </fieldset>
+            </form>
+        </section>
+
+        <!-- Semantic Elements Section -->
+        <section id="semantic">
+            <h2>7. Semantic HTML Elements</h2>
+            
+            <article>
+                <h3>Article Example</h3>
+                <p>This is an article element. It represents a self-contained composition in a document.</p>
+                <footer>
+                    <p>Article footer - Published by Anurag Dahal</p>
+                </footer>
+            </article>
+            
+            <aside>
+                <h3>Aside Example</h3>
+                <p>This is an aside element. It represents content that is tangentially related to the content around it.</p>
+            </aside>
+            
+            <details>
+                <summary>Click to expand details</summary>
+                <p>This is a details element. It creates a disclosure widget that can be expanded or collapsed.</p>
+            </details>
+            
+            <time datetime="2025-08-25">August 25, 2025</time>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Anurag Dahal. All rights reserved.</p>
+        <p>This is a comprehensive HTML example demonstrating various HTML elements and concepts.</p>
+    </footer>
+</body>
+</html>
+
